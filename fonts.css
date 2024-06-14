@@ -1,0 +1,176 @@
+/* Archivo ================================================= */
+
+@font-face {
+	font-family: 'Archivo';
+	src: url("./fonts/Archivo-Regular.woff2") format('woff2'),
+	url('./fonts/Archivo-Regular.woff') format('woff'); 
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Archivo';
+	src: url("./fonts/Archivo-Medium.woff2") format('woff2'),
+		url("./fonts/Archivo-Medium.woff") format('woff'); 
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Archivo';
+	src: url("./fonts/Archivo-SemiBold.woff2") format('woff2'),
+	url("./fonts/Archivo-SemiBold.woff") format('woff'); 
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Archivo';
+	src: url("./fonts/Archivo-Bold.woff2") format('woff2'),
+	url("./fonts/Archivo-Bold.woff") format('woff'); 
+	font-weight: 700;
+	font-style: normal;
+}
+/* Archivo END ============================================ */
+
+/* Roboto ================================================= */
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Thin.woff2') format('woff2'),
+	url('./fonts/Roboto-Thin.woff') format('woff'); 
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Light.woff2') format('woff2'),
+	url('./fonts/Roboto-Light.woff') format('woff'); 
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Regular.woff2') format('woff2'),
+	url('./fonts/Roboto-Regular.woff') format('woff'); 
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Medium.woff2') format('woff2'),
+	url('./fonts/Roboto-Medium.woff') format('woff'); 
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Bold.woff2') format('woff2'),
+	url('./fonts/Roboto-Bold.woff') format('woff'); 
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('./fonts/Roboto-Black.woff2') format('woff2'),
+	url('./fonts/Roboto-Black.woff') format('woff'); 
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* Roboto END ============================================== */
+
+/* Nunito ================================================== */
+
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-ExtraLight.woff2') format('woff2'),
+	url('./fonts/Nunito-ExtraLight.woff') format('woff'); 
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-Light.woff2') format('woff2'),
+	url('./fonts/Nunito-Light.woff') format('woff'); 
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-Regular.woff2') format('woff2'),
+	url('./fonts/Nunito-Regular.woff') format('woff'); 
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-SemiBold.woff2') format('woff2'),
+	url('./fonts/Nunito-SemiBold.woff') format('woff'); 
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-Bold.woff2') format('woff2'),
+	url('./fonts/Nunito-Bold.woff') format('woff'); 
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-ExtraBold.woff2') format('woff2'),
+	url('./fonts/Nunito-ExtraBold.woff') format('woff'); 
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url('./fonts/Nunito-Black.woff2') format('woff2'),
+	url('./fonts/Nunito-Black.woff') format('woff'); 
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* Nunito END ============================================== */
+
+/* OpenSans ================================================ */
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('./fonts/OpenSans-Light.woff2') format('woff2'),
+	url('./fonts/OpenSans-Light.woff') format('woff'); 
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url('./fonts/OpenSans-Regular.woff2') format('woff2'),
+	url('./fonts/OpenSans-Regular.woff') format('woff'); 
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url('./fonts/OpenSans-SemiBold.woff2') format('woff2'),
+	url('./fonts/OpenSans-SemiBold.woff') format('woff'); 
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url('./fonts/OpenSans-Bold.woff2') format('woff2'),
+	url('./fonts/OpenSans-Bold.woff') format('woff'); 
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url('./fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+	url('./fonts/OpenSans-ExtraBold.woff') format('woff'); 
+	font-weight: 800;
+	font-style: normal;
+}
+/* OpenSans END============================================= */
+
+
+
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="512.011" height="512.011" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+  <g id="SVGRepo_iconCarrier" transform="rotate(180 256.01 371.008)">
+   <g id="svg_1">
+    <g id="svg_2">
+     <path d="m505.77,238.59c-8.35,-8.34 -21.83,-8.34 -30.17,0l-219.58,219.59l-219.59,-219.59c-8.34,-8.34 -21.82,-8.34 -30.16,0s-8.34,21.83 0,30.17l234.66,234.66c4.16,4.16 9.62,6.26 15.09,6.26c5.46,0 10.92,-2.1 15.08,-6.26l234.67,-234.66c8.34,-8.34 8.34,-21.83 0,-30.17z" fill="#efdc02" id="svg_3"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
