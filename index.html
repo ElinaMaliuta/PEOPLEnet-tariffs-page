@@ -2,16 +2,16 @@
 <html lang="uk">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Підтримка абонентів PEOPLEnet">
+	<meta name="description" content="Тарифи на швидкісний дротовий інтернет м. Дніпро, м. Кривий Ріг, м. Київ,  м. Харків.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="7-IHu52a0KfO2DZe96h-9KwKsRk1p39tBRC4MOoK64g">
 	<link rel="shortcut icon" href="./image/logo_peoplenet.png" type="image/png">
 	<link rel="stylesheet" href="./css/general-styles.css">
-	<link rel="stylesheet" href="./css/styles-for-support-page.css">
+	<link rel="stylesheet" href="./css/styles-for-tafiffs-page.css">
 	<link rel="stylesheet" href="./fonts.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="./script.js"></script>
-	<title>Підтримка PEOPLEnet</title>
+	<title>Тарифи | PEOPLEnet</title>
 </head>
 <body>
 <header id="header" class="header">
@@ -33,114 +33,111 @@
 					<li class="nav__item"><a href="https://elinamaliuta.github.io/PEOPLEnet-contacts-page/">Контакти</a></li>
 				</ul>
 			</nav>
-			<div class="mark-for-some-page">Підтримка абонентів</div>
+			<div class="mark-for-some-page">Тарифи</div>
 		</div>
 	</div>
 </header>
 <main class="main">
 	<div class="wrapper">
 		<div class="page-block">
-			<h2>Самообслуговування</h2>
-			<div class="list-with-icons">
-				<div><a href="https://my.peoplenet.ua/login" title="Перейти в Особистий кабінет"><img src="./icons/user.svg" alt="icon-user"></a></div>
-				<div><a href="https://my.peoplenet.ua/login" title="Перейти в Особистий кабінет">Особистий кабінет</a></div>
-				
-				<div><a href="https://t.me/PEOPLEnet_bot" title="Підписатись на бота @PEOPLEnet_bot"><img src="./icons/paper-plane.svg" alt="icon-paper-plane"></a></div>
-				<div><a href="https://t.me/PEOPLEnet_bot" title="Підписатись на бота @PEOPLEnet_bot">@PEOPLEnet_bot в Telegram</a></div>
-				
-				<div><img src="./icons/sms.svg" title="Перевірка балансу за допомогою SMS" alt="icon-sms"></div>
-				<div>
-					<p>Для перевірки балансу за допомогою SMS <i><strong>з номера мобільного оператора України</strong></i> (окрім PEOPLEnet), необхідно відправити SMS на номер +380920000906. У тексті SMS необхідно вказати абонентський номер PEOPLEnet у форматі: 092ххххххх. Вартість SMS згідно з тарифами Вашого оператора зв'язку.</p>
-					<p>Для перевірки балансу за допомогою SMS <i><strong>з номера PEOPLEnet</strong></i>, потрібно відправити SMS на номер 906.</p>
+			<div class="tab-container">
+				<div class="tab-buttons">
+						<button class="tab-button active btn-black-yellow-left" onclick="openTab(event, 'tab1')">Дротовий інтернет</button>
+						<button class="tab-button btn-black-yellow-lef" onclick="openTab(event, 'tab2')">Мобільний інтернет та зв'язок</button>
 				</div>
-			</div>
-			<div class="dropdown-container">
-				<div class="list-with-icons">
-					<div class="dropdown-header">
-							<img src="./icons/arrow-down.svg" alt="" class="show-dropdown active">
-							<img src="./icons/arrow-up.svg" alt="" class="hide-dropdown">
+				<div id="tabs">
+					<div id="tab1" class="tab-content active">
+						<p>Виберіть місто:</p>
+						<ul class="tariffs-drot">
+							<li><a class="btn-black-yellow" href="https://www.peoplenet.ua/dnipro/" title="Відкрити тарифи для м. Дніпро">Дніпро</a></li>
+							<li>&#9675;</li>
+							<li><a class="btn-black-yellow" href="https://www.peoplenet.ua/kryvyi_rig/" title="Відкрити тарифи для м. Кривий Ріг">Кривий Ріг</a></li>
+							<li>&#9675;</li>
+							<li><a class="btn-black-yellow" href="https://www.peoplenet.ua/kyiv/" title="Відкрити тарифи для м. Київ">Київ</a></li>
+							<li>&#9675;</li>
+							<li><a class="btn-black-yellow" href="https://www.peoplenet.ua/kharkiv/" title="Відкрити тарифи для м. Харків">Харків</a></li>
+						</ul>
+						<h2>Прайс-лист на додаткові сервісні послуги</h2>
+						<table>
+							<tr>
+								<th>Найменування послуг</th>
+								<th>Тариф, грн.</th>
+							</tr>
+							<tr>
+								<td>Виклик фахівця</td>
+								<td>200,00</td>
+							</tr>
+							<tr>
+								<td>Налаштування обладнання (Wi-Fi роутеру, комп’ютеру, ноутбуку), яке не надавалось Оператором</td>
+								<td>250,00</td>
+							</tr>
+							<tr>
+								<td>Прокладка кабелю по зовнішніх стінах приміщення та в приміщенні (за 1 метр)</td>
+								<td>10,00</td>
+							</tr>
+							<tr>
+								<td>Буріння вводу (за 1 шт.)</td>
+								<td>50,00</td>
+							</tr>
+							<tr>
+								<td>Обтиск кабелю (за 1 кінець)</td>
+								<td>50,00</td>
+							</tr>
+							<tr>
+								<td>Зварювання  оптичного волокна  (за 1 зварювання)</td>
+								<td>100,00</td>
+							</tr>
+							<tr>
+								<td>Придбання кабелю абонентом (за 1 метр)</td>
+								<td>10,00</td>
+							</tr>
+							<tr>
+								<td>Демонтаж кабелю (за 1 метр)</td>
+								<td>5,00</td>
+							</tr>
+							<tr>
+								<td>Додаткове технічне обслуговування</td>
+								<td>100,00</td>
+							</tr>
+							<tr>
+								<td>Заміна обладнання (медіаконвертер/ONU/блок живлення)</td>
+								<td>в залежності від вартості обладнання</td>
+							</tr>	
+						 </table>
+						 <p> Ціни дійсні з 01.02.2023</p>
+						<div class="container-grid">
+							<div><a href="Прайс_на_додаткові_послуги_01.02.2023.pdf" title="Прайс на додаткові послуги"><img src="./icons/download.svg" alt=""></a></div>
+							<div><a href="Прайс_на_додаткові_послуги_01.02.2023.pdf" title="Прайс на додаткові послуги">Прайс на додаткові послуги для дротових абонентів.pdf</a></div>
+							<div><a href="Шаблон_акта_на_виконання_додаткових_робіт_01.02.2023.pdf" title="Шаблон акта на виконання додаткових робіт"><img src="./icons/download.svg" alt=""></a></div>
+							<div><a href="Шаблон_акта_на_виконання_додаткових_робіт_01.02.2023.pdf" title="Шаблон акта на виконання додаткових робіт">Шаблон акта на виконання додаткових робіт.pdf</a></div>
+						</div>
 					</div>
-					<div class="dropdown-title"><p>Публічні договори та Правила користування послугами</p></div>
-					
-					<div></div>
-					<div class="drop-down-list">
-							<ul>
-								<li><a href="./docs/2024.01_Publichnyi_dohovir_provod_internet.pdf">ПУБЛІЧНИЙ ДОГОВІР ПРО НАДАННЯ ЕЛЕКТРОННИХ КОМУНІКАЦІЙНИХ ПОСЛУГ (ПРОВОДОВОГО ДОСТУПУ ДО МЕРЕЖІ ІНТЕРНЕТ)</a></li>
-								<li><a href="./docs/2024.01_Publichnyi_dohovir_nadannia_el_kom_posluh.pdf">ПУБЛІЧНИЙ ДОГОВІР ПРО НАДАННЯ ЕЛЕКТРОННИХ КОМУНІКАЦІЙНИХ ПОСЛУГ</a></li>
-								<li><a href="./docs/2024.01_Pravyla_korystuvannia_merezheiu.pdf">ПРАВИЛА КОРИСТУВАННЯ ЕЛЕКТРОННОЮ КОМУНІКАЦІЙНОЮ МЕРЕЖЕЮ ПРИВАТНОГО АКЦІОНЕРНОГО ТОВАРИСТВА «ТЕЛЕСИСТЕМИ УКРАЇНИ»</a></li>
-							</ul>
-					</div>
-				</div>
-			</div>
-			<div class="dropdown-container">
-				<div class="list-with-icons">
-					<div class="dropdown-header">
-							<img src="./icons/arrow-down.svg" alt="" class="show-dropdown active">
-							<img src="./icons/arrow-up.svg" alt="" class="hide-dropdown">
-					</div>
-					<div class="dropdown-title"><p>Бланки заяв</p></div>
-					<div></div>
-					<div class="drop-down-list">
+					<div id="tab2" class="tab-content">
+						<p>Тарифи для мобільних номерів 092-ххххххх:</p>
 						<ul>
-							<li><a href="./docs/Zayava_dlya_perekhodu_na_SIP_dlya_fiz._osib.pdf">Заява для переходу на SIP для фізичних осіб</a></li>
-							<li><a href="./docs/Zayava_dlya_perekhodu_na_SIP_dlya_yur._osib.pdf">Заява для переходу на SIP для юридичних осіб</a></li>
-							<li><a href="./docs/Standartna_zaiava_dlia_fiz._osib.pdf">Стандартна заява для фізичних осіб</a></li>
-							<li><a href="./docs/Standartna_zaiava_dlia_yur._osib.pdf">Стандартна заява для юридичних осіб</a></li>
-							<li><a href="./docs/Pererof._vid_potochnoho_vlasnyka_fiz._osoby.pdf">Заява про перероформлення номеру на нового власника_від поточного власника фіз. особи</a></li>
-							<li><a href="./docs/Pererof._vid_potochnoho_vlasnyka_yur._osoby.pdf">Заява про перероформлення номеру на нового власника_від поточного власника юр. особи</a></li>
-							<li><a href="./docs/Pererof._vid_maibutnoho_vlasnyka_fiz._osoby.pdf">Заява про перероформлення номеру на нового власника_від майбутнього власника фіз. особи</a></li>
-							<li><a href="./docs/Pererof._vid_maibutnoho_vlasnyka_yur._osoby.pdf">Заява про перероформлення номеру на нового власника_від майбутнього власника юр. особи</a></li>
-							<li><a href="./docs/Dostavka_poshtoiu_dlia_yur._osib.pdf">Заява для замовлення послуги Доставка поштою_для юр. осіб</a></li>
-							<li><a href="./docs/Povernennia_zalyshku_koshtiv_dlia_fiz._osib.pdf">Заява про повернення залишку коштів для фіз. осіб</a></li>
-							<li><a href="./docs/Povernennia_zalyshku_koshtiv_dlia_yur._osib.pdf">Заява про повернення залишку коштів для юр. осіб</a></li>
-							<li><a href="./docs/Ukladannia_Dohovoru_dlia_biudzhetnykh_orhanizatsii.pdf">Заява про укладання Договору для бюджетних організацій</a></li>
+							<li><a href="tariffs/Все_включено_3G_та_СМАРТ-БЕЗЛІМІТ_3G.pdf" title="Відкрити тарифний план Все включено 3G" target="_blank">Все включено 3G</a></li>
+							<li><a href="tariffs/Все_включено_3G_та_СМАРТ-БЕЗЛІМІТ_3G.pdf" title="Відкрити тарифний план СМАРТ-БЕЗЛІМІТ 3G" target="_blank">СМАРТ-БЕЗЛІМІТ 3G</a></li>
+							<li><a href="tariffs/3G_БЕЗЛІМІТ_НА_ДОБУ_та_3G_БЕЗЛІМІТ_НА_МІСЯЦЬ.pdf" title="Відкрити тарифний план 3G БЕЗЛІМІТ НА ДОБУ" target="_blank">3G БЕЗЛІМІТ НА ДОБУ</a></li>
+							<li><a href="tariffs/3G_БЕЗЛІМІТ_НА_ДОБУ_та_3G_БЕЗЛІМІТ_НА_МІСЯЦЬ.pdf" title="Відкрити тариф 3G БЕЗЛІМІТ НА МІСЯЦЬ" target="_blank">3G БЕЗЛІМІТ НА МІСЯЦЬ</a></li>
+							<li><a href="tariffs/Безліміт_на_рік.pdf" title="Відкрити тарифний план Безліміт на рік" target="_blank">Безліміт на рік</a></li>
+							<li><a href="tariffs/ВІЛЬНИЙ_ІНТЕРНЕТ.pdf" title="Відкрити тарифний план ВІЛЬНИЙ ІНТЕРНЕТ" target="_blank">ВІЛЬНИЙ ІНТЕРНЕТ</a></li>	
+						</ul>
+						<p>Тарифи для фіксованих номерів 056/044-ххххххх:</p>
+						<ul>
+							<li><a href="tariffs/Місто_3G_та_Твої_розмови_3G.pdf" title="Відкрити тарифний план Місто 3G" target="_blank">Місто 3G</a></li>
+							<li><a href="tariffs/Місто_3G_та_Твої_розмови_3G.pdf" title="Відкрити тарифний план Твої розмови 3G" target="_blank">Твої розмови 3G</a></li>
+						</ul>
+						<p>Тарифи для фіксованих SIP-номерів 056/044-ххххххх:</p>
+						<ul>
+							<li><a href="tariffs/City_line.pdf" title="Відкрити тарифни план City line" target="_blank">City line</a></li>
+						</ul>
+						<p>Тарифи міжнародні для мобільних та фіксованих номерів:</p>
+						<ul>
+							<li><a href="tariffs/Міжнародні.pdf" title="Відкрити міжнародні тарифи" target="_blank">Міжнародні</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="dropdown-container">
-				<div class="list-with-icons">
-					<div class="dropdown-header">
-							<img src="./icons/arrow-down.svg" alt="" class="show-dropdown active">
-							<img src="./icons/arrow-up.svg" alt="" class="hide-dropdown">
-					</div>
-					<div class="dropdown-title"><p>Інструкції</p></div>
-					<div></div>
-					<div class="drop-down-list">
-						<ul>
-							<li><a href="./docs/Instrukciya_Yak pidklyuchyty_TRINITY-TV.pdf">Як підключити TRINITY-TV</a></li>
-							<li><a href="./docs/Instrukciya_Yak_korystuvatysya_internetom_koly_vymknuly_svitlo.pdf">Як користуватися інтернетом, коли вимкнули світло</a></li>
-							<li><a href="./docs/Instruktsiya_Yak_nalashtuvaty_Zoiper.pdf">Як налаштувати додаток Zoiper</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<h2>Зверніться до оператора підтримки</h2>
-			<div class="contacts-for-subscribers">
-				<div class="contacts-for-subscribers__item">
-					<div class="list-with-icons">
-						<div><a href="tel:+380927170717" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку."><img src="./icons/headphone.svg" alt="icon-phone"></a></div>
-						<div><a href="tel:+380927170717" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку.">092-717-0-717*</a></div>
-						<div><a href="tel:+380567170717" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку."><img src="./icons/headphone.svg" alt="icon-phone"></a></div>
-						<div><a href="tel:+380567170717" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку.">056-717-0-717*</a></div>
-						<div><a href="tel:+380445060506" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку."><img src="./icons/headphone.svg" alt="icon-phone"></a></div>
-						<div><a href="tel:+380445060506" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку.">044-506-0-506*</a></div>
-						<div><a href="tel:+380672152226" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку."><img src="./icons/headphone.svg" alt="icon-phone"></a></div>
-						<div><a href="tel:+380672152226" title="Вартість дзвінка згідно з тарифами Вашого оператора зв'язку.">067-215-22-26*</a></div>
-					</div>
-				</div>
-				<div class="contacts-for-subscribers__item">
-					<div class="list-with-icons">
-						<div><a href="https://t.me/peoplenet_ua" title="Написати оператору в Telegram"><img src="./icons/paper-plane.svg" alt="icon-paper-plane"></a></div>
-						<div><a href="https://t.me/peoplenet_ua" title="Написати оператору в Telegram">Чат в Telegram</a></div>
-						<div><a href="viber://chat?number=%2B380927170717" title="Написати оператору в Viber"><img src="./icons/viber.svg" alt="icon-viber"></a></div>
-						<div><a href="viber://chat?number=%2B380927170717" title="Написати оператору в Viber">Чат у Viber</a></div>
-						<div><a href="mailto:info@people.net.ua" title="Надіслати лист на info@people.net.ua"><img src="./icons/mail.svg" alt="icon-mail"></a></div>
-						<div><a href="mailto:info@people.net.ua" title="Надіслати лист на info@people.net.ua">info@people.net.ua</a></div>
-					</div>
-				</div>
-			</div>
-			<p>* Вартість дзвінка згідно з тарифами Вашого оператора зв'язку.</p>
 		</div>
 	</div>
 </main>
